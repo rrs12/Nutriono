@@ -7,7 +7,7 @@
   }
   nav{
     top: 0;
-    background: linear-gradient(90deg, rgba(180, 76, 97, 0.431) 0%, rgba(224,132,170,0.431) 74%);
+    background: linear-gradient(90deg, rgba(180, 76, 97, 0.931) 0%, rgba(224,132,170,0.931) 74%);
     height: 80px;
     width: 100%;
     position: fixed;
