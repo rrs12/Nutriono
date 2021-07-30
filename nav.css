@@ -41,9 +41,9 @@
     text-transform: uppercase;
   }
   nav ul li a.active, nav ul li a:hover{
-    background: #a1665e;
     transition: .5s;
-  color:#c095cb !important;;
+    color:#593664 !important;
+    font-weight: bold;
   }
   .checkbtn{
     font-size: 30px;
@@ -74,7 +74,7 @@
       position: fixed;
       width: 100%;
       height: 100vh;
-      background: #b68c86;
+      background: #caaca7;
       top: 80px;
       left: -100%;
       text-align: center;
@@ -91,7 +91,8 @@
     }
     a:hover,a.active{
       background: none;
-      color:#c095cb !important;
+      color:#3a2241 !important;
+      font-weight: bold;
     }
     #check:checked ~ ul{
       left: 0;
