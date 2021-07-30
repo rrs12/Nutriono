@@ -1,0 +1,40 @@
+body{
+    font-family: 'Times New Roman', Times, serif !important;
+}
+footer{
+    padding-bottom: 25px;
+}
+.footer-img{
+text-align: center;
+}
+.footer-logo{
+    height: 10em !important;;
+    width: auto;
+    margin: 20px;
+    margin-top: 50px;
+}
+.footer-icon{
+    height: 200px;
+    width: auto;
+    margin: 20px;
+    margin-top: 30px;
+}
+.nav-links{
+    text-align: center;
+    margin-top: 10px;
+}
+.nav-links a{
+    line-height: 2.25em;
+    color: white;
+    font-size: 2em;
+    display: block;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+.nav-links h3{
+    color: white;
+    font-weight: bolder;
+}
+.nav-links a:hover{
+text-decoration: underline;
+}
