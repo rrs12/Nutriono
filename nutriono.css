@@ -1,67 +1,111 @@
-body{
-    font-family: 'Times New Roman', Times, serif !important;
-    background-color: #c095cb;
+body {
+  font-family: 'Times New Roman', Times, serif !important;
+  background-color: #c095cb;
 }
-footer{
-    padding-bottom: 25px;
+
+footer {
+  padding-bottom: 25px;
 }
-.footer-img{
-text-align: center;
+
+.footer-img {
+  text-align: center;
 }
-.footer-logo{
-    width:75%;
-     height:auto;
-    margin: 20px;
-    margin-top: 50px;
+
+.footer-logo {
+  width: 75%;
+  height: auto;
+  margin: 20px;
+  margin-top: 50px;
 }
-.footer-icon{
-    height: 180px;
-    width: auto;
-    margin: 20px;
-    margin-top: 30px;
+
+.footer-icon {
+  height: 180px;
+  width: auto;
+  margin: 20px;
+  margin-top: 30px;
 }
-.nav-links{
-    text-align: center;
-    margin-top: 30px;
+
+.nav-links {
+  text-align: center;
+  margin-top: 30px;
 }
-.nav-links a{
-    line-height: 2.25em;
-    color: white;
-    font-size: 2em;
-    display: block;
-    text-decoration: none;
-    font-family: 'Times New Roman', Times, serif !important;
+
+.nav-links a {
+  line-height: 2.25em;
+  color: white;
+  font-size: 2em;
+  display: block;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif !important;
 }
-.nav-links h3{
-    color: white;
-    font-weight: bolder;
+
+.nav-links h3 {
+  color: white;
+  font-weight: bolder;
 }
-.nav-links a:hover{
-text-decoration: underline;
+
+.nav-links a:hover {
+  text-decoration: underline;
 }
-.row i{
+
+.row i {
   font-size: 0.8em !important;
 
 }
-.row a:hover{
+
+.row a:hover {
   text-decoration: none;
 }
-.row i:hover{
+
+.row i:hover {
   transition: ease-in-out 1s;
 
 }
-  .fb:hover{
-   color:  #3b5998;
-  }
-  .twitter:hover{
-    color: #00acee;
-  }
-  .insta:hover{
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    padding: 0p 0px !important;
-    border-radius: 5px;
-  }
-  .linkedin:hover{
-    color: #0077b5;
-  }
-  
+
+.linkedin {
+  color: white !important;
+}
+
+.fb:hover {
+  color: #3b5998;
+}
+
+.twitter:hover {
+  color: #00acee;
+}
+
+.insta:hover {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  padding: 0px 0px !important;
+  border-radius: 5px;
+}
+
+.linkedin:hover {
+
+  color: #0077b5 !important;
+  transition: ease-in-out 1s;
+}
+
+.team_image {
+  border-radius: 100px;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.team_span {
+  margin-bottom: 50px;
+}
+.team_div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 850px){
+  .team_div{
+    display: block;
+}
+}
