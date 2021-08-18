@@ -27,30 +27,22 @@
     <link rel="stylesheet" href="nutriono.css">
     <link rel="stylesheet" href="nav.css">
 
-    <link rel = "icon" href ="assets/Nutriono Icon.png" 
-        type = "image/x-icon">
+    <link rel="icon" href="assets/Nutriono Icon.png" type="image/x-icon">
     <style>
-    div.ecwid-productBrowser {
-      margin-top: 100px !important;
-      margin-bottom: 100px !important;
-      background-color: #FFC8D0 !important;
-      z-index: 2;
-}
-span.ecwid-productBrowser-details-optionRadioButton-sign {
- display:none;
-}
-.ec-size .ec-store_category-page .ec-store_content-wrapper {
-display: flex;
-flex-direction: column;
-}
-.ec-size .ec-store__category-page .ec-grid {
-order: 2;
-}
-.ec-size .ec-store__category-page .ec-pager {
-order: 3;
-}
-.ec-size .ec-store__category-page .ec-footer {
-order: 1;
+        div.ecwid-productBrowser {
+            margin-top: 100px !important;
+            margin-bottom: 100px !important;
+            background-color: #FFC8D0 !important;
+            z-index: 2;
+        }
+        div.ec-cart-item__control a.ec-cart-item__control-inner { 
+   display: block; 
+   fill:white !important; 
+   height:17px; 
+   width:17px !important; 
+} 
+svg{
+    fill: white !important;
 }
 
     </style>
@@ -61,27 +53,29 @@ order: 1;
     <nav>
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
-          <i class="fa fa-bars"></i>
+            <i class="fa fa-bars"></i>
         </label>
         <label class="logo">Nutriono</label>
         <ul>
-          <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="About.html">About</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="#">Contact</a></li>
-          <div class="ec-cart-widget"></div>
-<div>
-<script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?63909003&data_platform=code&data_date=2021-08-18" charset="utf-8"></script>
-<script type="text/javascript">Ecwid.init();</script>
-</div>
-        </ul>
-      </nav>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="#">Contact</a></li>
 
-      <div id="my-search-63909003"></div>
-      <div>
-      <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?63909003&data_platform=code&data_date=2021-08-18" charset="utf-8"></script>
-      <script type="text/javascript"> xSearch("id=my-search-63909003"); </script>
-      </div>
+            <li>
+                <div class="ec-cart-widget"></div>
+                <div>
+                    <script data-cfasync="false" type="text/javascript"
+                        src="https://app.ecwid.com/script.js?63909003&data_platform=code&data_date=2021-08-18"
+                        charset="utf-8"></script>
+                    <script type="text/javascript">
+                        Ecwid.init();
+                    </script>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
 
     <div id="my-store-63909003"></div>
     <div>
@@ -112,14 +106,14 @@ order: 1;
         </div>
 
         <div class="col-lg-4 col-md-12 col-sm-12 nav-links">
-           <h3>Enquiry</h3>
-           <a href="mailto:nutriono.mitraam@gmail.com">nutriono.mitraam@gmail.com</a>
-           <div class="row">
-            <a href="#"><i class="fa fa-facebook-square fb" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-twitter twitter" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-instagram insta" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-linkedin linkedin " aria-hidden="true"></i></a>
-           </div>
+            <h3>Enquiry</h3>
+            <a href="mailto:nutriono.mitraam@gmail.com">nutriono.mitraam@gmail.com</a>
+            <div class="row">
+                <a href="#"><i class="fa fa-facebook-square fb" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram insta" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin linkedin " aria-hidden="true"></i></a>
+            </div>
         </div>
     </footer>
 

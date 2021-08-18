@@ -38,7 +38,9 @@ footer {
   text-decoration: none;
   font-family: 'Times New Roman', Times, serif !important;
 }
-
+.ec-cart-widget{
+  display: none;
+}
 .nav-links h3 {
   color: white;
   font-weight: bolder;
@@ -109,3 +111,10 @@ background-color: #FFC8D0;
     display: block;
 }
 }
+@media (max-width: 850px){
+.ec-cart-widget{
+  display: block;
+  fill: white;
+}
+}
+
