@@ -1,6 +1,6 @@
 body {
   font-family: 'Times New Roman', Times, serif !important;
-  background-color: #FFC8D0;
+  background-color: #FFC8D0 !important;
 }
 
 footer {
@@ -100,7 +100,7 @@ footer {
 }
 .team_div{
   display: flex;
-
+background-color: #FFC8D0;
   justify-content: center;
 }
 
