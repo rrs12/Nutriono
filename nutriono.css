@@ -114,7 +114,15 @@ background-color: #FFC8D0;
 @media (max-width: 850px){
 .ec-cart-widget{
   display: block;
-  fill: white;
+  fill: white !important;
+  color: white !important;
+}
+.icon-default, .ec-minicart__icon,path{
+  display: block;
+  stroke: white !important;
+}
+g{
+  fill: none !important;
 }
 }
 
