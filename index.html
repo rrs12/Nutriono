@@ -35,36 +35,35 @@
             background-color: #FFC8D0 !important;
             z-index: 2;
         }
-        div.ec-cart-item__control a.ec-cart-item__control-inner { 
-   display: block; 
-   fill:white !important; 
-   height:17px; 
-   width:17px !important; 
-} 
 
+        div.ec-cart-item__control a.ec-cart-item__control-inner {
+            display: block;
+            fill: white !important;
+            height: 17px;
+            width: 17px !important;
+        }
     </style>
 </head>
 
 <body>
 
     <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
+          <label for="check" class="checkbtn">
             <i class="fa fa-bars"></i>
         </label>
+  <span data-icon="cart" data-layout="BIG_ICON_COUNTER" class="ec-cart-widget"></span>
+            <span>
+                <script data-cfasync="false" type="text/javascript"
+                    src="https://app.ecwid.com/script.js?63909003&data_platform=code&data_date=2021-08-18"
+                    charset="utf-8"></script>
+                <script type="text/javascript">
+                    Ecwid.init();
+                </script>
+            </span>
         <label class="logo">Nutriono</label>
+
         <ul>
-            <li>
-                <div class="ec-cart-widget"></div>
-                <div>
-                    <script data-cfasync="false" type="text/javascript"
-                        src="https://app.ecwid.com/script.js?63909003&data_platform=code&data_date=2021-08-18"
-                        charset="utf-8"></script>
-                    <script type="text/javascript">
-                        Ecwid.init();
-                    </script>
-                </div>
-            </li>
+
             <li><a class="active" href="index.html">Home</a></li>
             <li><a href="About.html">About</a></li>
             <li><a href="team.html">Team</a></li>

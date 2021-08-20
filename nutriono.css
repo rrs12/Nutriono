@@ -116,13 +116,14 @@ background-color: #FFC8D0;
   display: block;
   fill: white !important;
   color: white !important;
+margin: 12px 25px !important;
+float: right;
 }
-.icon-default, .ec-minicart__icon,path{
+.icon-default, .ec-minicart__icon,path,circle{
   display: block;
   stroke: white !important;
 }
-g{
-  fill: none !important;
-}
+
+
 }
 

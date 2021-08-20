@@ -19,6 +19,8 @@
     line-height: 80px;
     padding: 0 25px;
     font-weight: bold;
+    top:0% !important;
+    position: fixed;
   }
   img.logo{
     height: 50px;
@@ -97,4 +99,10 @@
     #check:checked ~ ul{
       left: 0;
     }
+  }
+  @media (max-width: 415px){
+    .logo{
+      padding: 0 10px !important;
+    }  
+  
   }
