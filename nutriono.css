@@ -135,5 +135,6 @@ float: right;
 @media (max-width: 412px){
   .ec-cart-widget{
 vertical-align: middle !important;
+margin-top: 15px;
   }
   }
