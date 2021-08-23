@@ -30,7 +30,7 @@ footer {
   margin-top: 30px;
 }
 
-.nav-links a {
+.nav-links a, #contact a {
   line-height: 2.25em;
   color: white;
   font-size: 2em;
@@ -51,7 +51,7 @@ footer {
   font-weight: bolder;
 }
 
-.nav-links a:hover {
+.nav-links a:hover, #contact a:hover {
   text-decoration: underline;
 }
 
@@ -137,4 +137,10 @@ float: right;
 vertical-align: middle !important;
 margin-top: 15px !important;
   }
+  }
+  iframe{
+    width: 70%;
+    height:800px;
+    margin-top: 120px !important;
+
   }
