@@ -30,7 +30,7 @@ footer {
   margin-top: 30px;
 }
 
-.nav-links a, #contact a {
+.nav-links a {
   line-height: 2.25em;
   color: white;
   font-size: 2em;
@@ -143,4 +143,12 @@ margin-top: 15px !important;
     height:800px;
     margin-top: 120px !important;
 
+  }
+  #contact a{
+    color: #0077b5;
+    line-height: 2.25em;
+    font-size: 2em;
+    display: block;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif !important;
   }
